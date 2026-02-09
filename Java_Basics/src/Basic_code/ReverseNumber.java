@@ -5,7 +5,7 @@ public class ReverseNumber {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Num plz:");
+        System.out.println("Number plz:");
 
         int num = sc.nextInt();
         int res = 0;
@@ -14,8 +14,6 @@ public class ReverseNumber {
             int digit = num % 10;
             res = res * 10 + digit;
             num = num / 10;
-            System.out.println("Reverse = " + res);
-
         }
 
         System.out.println("Reverse = " + res);
