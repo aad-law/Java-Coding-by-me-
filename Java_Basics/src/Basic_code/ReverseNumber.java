@@ -14,6 +14,8 @@ public class ReverseNumber {
             int digit = num % 10;
             res = res * 10 + digit;
             num = num / 10;
+            System.out.println("Reverse = " + res);
+
         }
 
         System.out.println("Reverse = " + res);
