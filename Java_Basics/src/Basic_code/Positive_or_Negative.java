@@ -2,7 +2,6 @@ package Basic_code;
 import java.util.Scanner;
 
 
-
 public class Positive_or_Negative {
 	
 public static void main(String[] args) {
@@ -17,6 +16,4 @@ public static void main(String[] args) {
 	 }
 }
 	
-	
-
 }
